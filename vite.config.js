@@ -5,5 +5,12 @@ export default defineConfig({
   build: {
     outDir: '../dist',
     emptyOutDir: true
+  },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        charset: false
+      }
+    }
   }
 }); 
