@@ -4,7 +4,9 @@ export default defineConfig({
   root: 'src',
   build: {
     outDir: '../dist',
-    emptyOutDir: true
+    emptyOutDir: true,
+    minify: 'terser',
+    sourcemap: true
   },
   css: {
     preprocessorOptions: {
@@ -13,5 +15,6 @@ export default defineConfig({
         api: "modern"
       }
     }
-  }
+  },
+  base: './'
 }); 
