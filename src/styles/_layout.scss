@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
+
+body {
+  background-color: $bg;
+  color: $fontColor;
+  font-family: $fontFamily;
+  text-align: center;
+  height: 100vh;
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 0;
+}
+
+// Controls container (for the buttons we discussed adding)
+.controls {
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 1rem;
+}

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rubik's Cube</title>
-    <link rel="stylesheet" href="style.scss">
+    <link rel="stylesheet" href="styles/main.scss">
 </head>
 <body>
     <h1>Rubik's Cube</h1>
@@ -96,6 +96,11 @@
     <div class="controls">
         <button id="reset">Reset Position</button>
         <button id="scramble">Scramble</button>
+        <div class="rotation-controls">
+            <button data-rotation="rotateX">Rotate X</button>
+            <button data-rotation="rotateY">Rotate Y</button>
+            <button data-rotation="rotateZ">Rotate Z</button>
+        </div>
     </div>
     <script type="module" src="main.js"></script>
 </body>

@@ -1,5 +1,18 @@
-// Move variables from style.scss here
 $cubeBg: #171a1b;
 $cubeWidth: 250px;
 $cubeHeight: $cubeWidth;
-// ... other variables
+
+$bg: #fff59d;
+$borderColor: #030607;
+$borderRadius: 4px;
+$fontFamily: "Open Sans";
+$fontColor: $cubeBg;
+
+$rubikColors: (
+  "red": #b90000,
+  "green": #009b48,
+  "blue": #0045ad,
+  "yellow": #ffd500,
+  "orange": #ff5900,
+  "white": #ffffff
+);
