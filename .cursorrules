@@ -1,0 +1,71 @@
+# Rubik's Cube Project Rules
+This is a browser-based Rubik's Cube implementation using modern web technologies.
+
+## Project Context
+- This is a 3D Rubik's Cube visualization using CSS transforms
+- Built with vanilla JavaScript, SCSS, and HTML
+- Uses Vite as the build tool
+- Focuses on modern browser compatibility
+
+## Code Style & Architecture
+- Use SCSS with organized partials (_variables.scss, _mixins.scss, _cube.scss)
+- Follow BEM naming convention for CSS classes
+- Maintain separation of concerns between styling and logic
+- Use CSS Grid for square layouts
+- Leverage CSS transforms for 3D effects
+
+## SCSS Guidelines
+- Use the established color variables from _variables.scss
+- Implement mixins for reusable styles
+- Maintain the nested structure for .cube and .face components
+- Use the $cube-colors map for consistent color management
+- Keep transitions smooth with 0.3s duration
+
+## JavaScript Guidelines
+- Use ES6+ features
+- Implement proper type checking
+- Handle cube rotation and face movements efficiently
+- Maintain clear separation between UI updates and cube logic
+- Document complex algorithms and transformations
+
+## Build & Development
+- Use Vite for development and building
+- Maintain source maps for debugging
+- Follow the established folder structure
+- Keep bundle size optimized
+
+## Accessibility
+- Ensure proper color contrast
+- Maintain keyboard navigation support
+- Include ARIA labels where appropriate
+- Support reduced motion preferences
+
+## Performance
+- Optimize CSS transforms
+- Use will-change for better performance
+- Minimize repaints and reflows
+- Implement efficient state management
+
+## Documentation
+- Document complex CSS transforms
+- Maintain clear comments for cube movement logic
+- Include JSDoc comments for key functions
+- Keep README updated with setup instructions
+
+## Testing
+- Test across modern browsers
+- Verify mobile compatibility
+- Ensure smooth animations
+- Validate cube state management
+
+## Dependencies
+- Minimize external dependencies
+- Use Vite for bundling
+- Leverage SCSS features
+- Maintain browser compatibility
+
+## Version Control
+- Follow conventional commits
+- Keep modular changes
+- Document significant style updates
+- Track breaking changes
